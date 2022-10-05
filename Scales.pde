@@ -4,7 +4,7 @@ void setup() {
 
 void draw() {
   float x=0;
-  float y=-30;
+  float y =-30;
   for (int row = 0; row < 300; row++) {
     for (int col = 0; col < 300; col++) {
       drawScale(x, y);
@@ -14,7 +14,6 @@ void draw() {
     x=0;
   }
 }
-
 
 void drawScale(float x, float y) {
   stroke(30);
